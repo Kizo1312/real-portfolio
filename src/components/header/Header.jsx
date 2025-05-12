@@ -11,7 +11,9 @@ const Top = () => {
   return (
     <div id="top">
       <Button children={"Toma"} />
-      <Button onClick={handleOpenSidebar} children={"click"} />
+      <div id="sidebar-toggle">
+        <Button onClick={handleOpenSidebar} children={"click"} />
+      </div>
       {open && <Sidebar />}
     </div>
   );
