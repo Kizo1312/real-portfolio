@@ -1,8 +1,11 @@
-import React from "react";
 import "./sidebar.css";
 
-const Sidebar = () => {
-  return <div id="sidebar">navigation</div>;
+const Sidebar = ({ className }) => {
+  return (
+    <div id="sidebar" className={className}>
+      navigation
+    </div>
+  );
 };
 
 export default Sidebar;

@@ -1,4 +1,3 @@
-import React from "react";
 import "./header.css";
 import { useState } from "react";
 import Button from "../Button";
@@ -14,7 +13,7 @@ const Top = () => {
       <div id="sidebar-toggle">
         <Button onClick={handleOpenSidebar} children={"click"} />
       </div>
-      {open && <Sidebar />}
+      <Sidebar className={open ? "open" : ""} />
     </div>
   );
 };
