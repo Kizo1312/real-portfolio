@@ -7,9 +7,20 @@ function App() {
   return (
     <>
       <Top id="top" />
-      <Projects id="projects" />
-      <Contact id="contact" />
-      <Footer id="footer" />
+      <div id="main">
+        <div id="first">
+          <div id="intro">
+            Welcome! My name is Toma Illcic. I’m a junior software developer
+            based in Varaždin, Croatia, passionate about creating responsive web
+            applications in React and building practical tools with Python.
+          </div>
+          <Projects id="projects" />
+        </div>
+        <div id="second">
+          <Contact id="contact" />
+          <Footer id="footer" />
+        </div>
+      </div>
     </>
   );
 }

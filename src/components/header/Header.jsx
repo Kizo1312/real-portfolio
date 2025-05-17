@@ -2,6 +2,7 @@ import "./header.css";
 import { useState } from "react";
 import Button from "../Button";
 import Sidebar from "../sidebar/sidebar";
+import icon from "../../assets/icons8-sidebar-64.png";
 const Top = () => {
   const [open, setOpen] = useState(false);
   const handleOpenSidebar = () => {
@@ -9,9 +10,11 @@ const Top = () => {
   };
   return (
     <div id="top">
-      <Button children={"Toma"} />
+      <Button />
       <div id="sidebar-toggle">
-        <Button onClick={handleOpenSidebar} children={"click"} />
+        <Button onClick={handleOpenSidebar}>
+          <img src={icon} alt=""></img>
+        </Button>
       </div>
       <Sidebar className={open ? "open" : ""} />
     </div>

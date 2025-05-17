@@ -1,8 +1,33 @@
-#root {
-  background-color: rgb(70, 62, 62);
-}
 body,
 html {
   margin: 0;
   padding: 0;
+  background-image: url("/src/assets/minimalist-geometric-shapes-from-paper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+#intro {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  color: #660a0a;
+  box-shadow: 0 0 10px rgba(59, 57, 57, 0.2);
+  font-size: 200%;
+}
+#first {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30%;
+}
+#second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
 }
