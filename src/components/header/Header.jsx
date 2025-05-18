@@ -10,7 +10,6 @@ const Top = () => {
   };
   return (
     <div id="top">
-      <Button />
       <div id="sidebar-toggle">
         <Button onClick={handleOpenSidebar}>
           <img src={icon} alt=""></img>

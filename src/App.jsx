@@ -6,21 +6,32 @@ import Projects from "./components/projects/Projects";
 function App() {
   return (
     <>
-      <Top id="top" />
-      <div id="main">
+      <section id="main">
+        <Top id="top" />
         <div id="first">
           <div id="intro">
-            Welcome! My name is Toma Illcic. I’m a junior software developer
-            based in Varaždin, Croatia, passionate about creating responsive web
-            applications in React and building practical tools with Python.
+            <h1>Welcome </h1>
+            <h4>
+              My name is Toma Illcic. <br /> I’m a junior software developer
+            </h4>
+
+            <p>
+              {" "}
+              I am based in Varaždin, Croatia, passionate about creating
+              responsive web applications in React and building practical tools
+              with Python.
+            </p>
           </div>
-          <Projects id="projects" />
         </div>
-        <div id="second">
-          <Contact id="contact" />
-          <Footer id="footer" />
-        </div>
-      </div>
+        <div id="second"></div>
+      </section>
+      <section>
+        <Projects id="projects" />
+      </section>
+      <section>
+        <Contact id="contact" />
+      </section>
+      c
     </>
   );
 }

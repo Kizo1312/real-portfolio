@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body,
 html {
   margin: 0;
@@ -7,13 +11,15 @@ html {
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #intro {
   padding: 20px;
   border-radius: 10px;
   max-width: 400px;
-  color: #660a0a;
+  color: #cccccc;
   box-shadow: 0 0 10px rgba(59, 57, 57, 0.2);
   font-size: 200%;
 }
@@ -21,13 +27,13 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
-  margin-bottom: 30%;
 }
-#second {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: space-around;
+section {
+  height: 100vh;
+}
+
+h1,
+p {
+  margin: 0;
 }

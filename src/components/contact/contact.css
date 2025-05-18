@@ -1,0 +1,7 @@
+.contact-section {
+  height: 100vh;
+  background-image: url("../../assets/3abcd1.jpg"); /* or imported image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
